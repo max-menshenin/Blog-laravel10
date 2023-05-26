@@ -22,8 +22,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/posts/{post}', function ($id) {
+Route::get('/posts/{id}', function ($id) {
     return view('post',
         ['post' => Post::findOrFail($id)]);
-    
 });
