@@ -15,7 +15,6 @@
 
     <div>
         {!!  $post-> body !!}
-        
     </div>
 </article>
 <h1><a href="/"> Go back</a></h1>
