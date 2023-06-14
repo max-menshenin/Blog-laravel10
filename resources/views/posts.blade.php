@@ -18,6 +18,7 @@
     </h1>
 
     <p>
+        <a href="/categories/{{$post->category }}"> {{$post-> category -> name}}</a>
     </p>
 
     <div>
