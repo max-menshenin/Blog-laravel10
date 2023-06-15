@@ -13,11 +13,16 @@
 <article>
     <h1> {{ $post->title }}  </h1>
 
+    <p>
+        <a href="/categories/"{{ $post->category->id }} }> {{$post-> category -> name}}</a>
+    </p>
+
     <div>
         {!!  $post-> body !!}
     </div>
 </article>
-<h1><a href="/"> Go back</a></h1>
-
+<p>
+<a href="/">Go back</a>
+</p>
 </body>
 </html>

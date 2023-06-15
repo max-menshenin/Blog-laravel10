@@ -18,7 +18,7 @@
     </h1>
 
     <p>
-        <a href="/categories/{{$post->category }}"> {{$post-> category -> name}}</a>
+        <a href="/categories/"{{ $post->category->id }} }> {{$post-> category -> name}}</a>
     </p>
 
     <div>
