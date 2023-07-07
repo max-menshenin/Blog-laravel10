@@ -19,5 +19,5 @@
 </article>
 
 @endforeach
-</x-layout>
 
+</x-layout>
