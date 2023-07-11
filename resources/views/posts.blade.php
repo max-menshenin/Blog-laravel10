@@ -1,5 +1,6 @@
 <x-layout>
 
+
     <header class="max-w-xl mx-auto mt-20 text-center">
         <h1 class="text-4xl">
             Latest <span class="text-blue-500">Laravel From Scratch</span> News
@@ -444,25 +445,24 @@
         </div>
     </main>
 
-
     {{--@foreach ($posts as $post)--}}
 
-{{--<article>--}}
-{{--    <h1>--}}
-{{--        <a href="/posts/{{ $post->slug }}"/>--}}
-{{--        {{ $post->title }}<br>--}}
-{{--        {{ $post->created_at }}--}}
-{{--    </h1>--}}
+    {{--<article>--}}
+    {{--    <h1>--}}
+    {{--        <a href="/posts/{{ $post->slug }}"/>--}}
+    {{--        {{ $post->title }}<br>--}}
+    {{--        {{ $post->created_at }}--}}
+    {{--    </h1>--}}
 
-{{--    <p>--}}
-{{--        By <a href="/authors/{{ $post->author->username }}">{{$post->author->username}}</a> in <a href="/categories/{{$post->category->slug}}"> {{$post-> category -> name}}</a>--}}
-{{--    </p>--}}
+    {{--    <p>--}}
+    {{--        By <a href="/authors/{{ $post->author->username }}">{{$post->author->username}}</a> in <a href="/categories/{{$post->category->slug}}"> {{$post-> category -> name}}</a>--}}
+    {{--    </p>--}}
 
-{{--    <div>--}}
-{{--        {{ $post->excerpt }}--}}
-{{--    </div>--}}
-{{--</article>--}}
+    {{--    <div>--}}
+    {{--        {{ $post->excerpt }}--}}
+    {{--    </div>--}}
+    {{--</article>--}}
 
-{{--@endforeach--}}
+    {{--@endforeach--}}
 
 </x-layout>
