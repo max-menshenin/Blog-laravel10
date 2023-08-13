@@ -5,7 +5,7 @@
         <x-post-featured-card :post="$posts[0]">
 
         <div class="lg:grid lg:grid-cols-2">
-            @foreach ($posts->skip(1) as $post)
+            @foreach ($posts->skip(0) as $post)
                 <x-post-card :post="$post"/>
             @endforeach
         </div>
