@@ -21,7 +21,7 @@
                 </div>
             </header>
 
-            <div class="text-sm mt-2">
+            <div class="lg:grid lg:grid-cols-2">
                 <p>
                     {{ $post->excerpt }}
                 </p>
